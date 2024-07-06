@@ -292,4 +292,4 @@ plt.ylabel('Capital')
 plt.legend()
 plt.show()
 
-# Hasta aquí todo bien
+# Hasta aquí
