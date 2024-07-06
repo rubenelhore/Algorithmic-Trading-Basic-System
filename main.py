@@ -291,3 +291,5 @@ plt.xlabel('Trading Hours')
 plt.ylabel('Capital')
 plt.legend()
 plt.show()
+
+# Hasta aquí todo bien
