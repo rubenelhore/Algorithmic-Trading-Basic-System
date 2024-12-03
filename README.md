@@ -1,14 +1,15 @@
-Trading Algorithm with Quality Metric
+# Trading Algorithm with Quality Metric
 This repository contains a Python-based trading algorithm designed to evaluate the financial market using the Quality metric from Trading in the Zone by Mark Douglas. The script employs machine learning techniques, particularly a Random Forest Classifier, to predict market trends and execute trades based on the Quality of trading signals.
 
-Features
-Market Data Integration: Fetches hourly stock data from Yahoo Finance.
-Feature Engineering: Includes derived features such as returns, range, and a custom Quality metric.
-Machine Learning Model: Uses a Random Forest Classifier to make trading decisions.
-Backtesting Framework: Simulates trading to evaluate performance with metrics like Sharpe Ratio, Annualized Return, and Win Rate.
-Comparison with Buy-and-Hold: Benchmarks model performance against a traditional buy-and-hold strategy.
-Visualization: Plots equity curves for the trading model and buy-and-hold strategy.
-Installation
+# Features
+- Market Data Integration: Fetches hourly stock data from Yahoo Finance.
+- Feature Engineering: Includes derived features such as returns, range, and a custom Quality metric.
+- Machine Learning Model: Uses a Random Forest Classifier to make trading decisions.
+- Backtesting Framework: Simulates trading to evaluate performance with metrics like Sharpe Ratio, Annualized Return, and Win Rate.
+- Comparison with Buy-and-Hold: Benchmarks model performance against a traditional buy-and-hold strategy.
+- Visualization: Plots equity curves for the trading model and buy-and-hold strategy.
+
+# Installation
 Clone this repository:
 bash
 Copiar código
@@ -75,6 +76,6 @@ Libraries: numpy, pandas, sklearn, yfinance, matplotlib
 License
 This project is licensed under the MIT License.
 
-Acknowledgments
+# Acknowledgments
 Mark Douglas for introducing the Quality metric in Trading in the Zone.
 Yahoo Finance for providing financial data via the yfinance library.
